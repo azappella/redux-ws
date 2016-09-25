@@ -31,11 +31,9 @@ const socketware = (() => {
           onDisconnect(socket, store)
         });
         socket.on('deposit', (payload) => {
-          console.log('User deposits:', payload);
           onDeposit(payload, socket, store);
         });
         socket.on('withdraw', (payload) => {
-          console.log('User withdraws:', payload);
           onWithdraw(payload, socket, store);
         });
         break;

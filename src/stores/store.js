@@ -1,16 +1,24 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux';
-import reducer from 'reducers/index';
+import rootReducer from 'reducers/index';
 import logger from 'redux-logger';
 import thunk from 'redux-thunk';
 import socketware from 'middleware/socket-io';
 
-const reduxLogger = logger();
+const initialState = {
+  bank: {
+    balance: 0,
+  },
+  ws: {
+    status: null,
+  }
+};
 
 export default createStore(
-  reducer, 
+  rootReducer, 
+  initialState,
   applyMiddleware(
     thunk,
-    reduxLogger,
+    logger(),
     socketware
   )
 );

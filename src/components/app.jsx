@@ -52,40 +52,4 @@ const mapDispatchToProps = (dispatch) => {
 
 const BankAppContainer = connect(mapStateToProps, mapDispatchToProps)(BankApp);
 
-// class BankAppContainer extends React.Component {
-  
-//   componentDidMount() {
-//     this.unsubscribe = store.subscribe(() => {
-//       this.setState({ balance: store.getState().bank.balance, wsStatus: store.getState().ws.status });
-//     });
-//     store.dispatch( actions.ws.connect() );
-//     // store.dispatch( actions.ws.emit('deposit', 150.00) );
-//   }
-
-//   componentWillUnmount() {
-//     this.unsubscribe();
-//   }
-
-//   onDeposit(e, amount) {
-//     // it needs to go through the websocketware first, we can call an emit firt
-//     // then, the websocketware will dispatch the action that deposit was received
-//     // and the bank reducer will do its' job. 
-//     store.dispatch( actions.ws.emit('deposit', amount) );
-//   }
-
-//   onWithdraw(e, amount) {
-//     store.dispatch( actions.ws.emit('withdraw', amount) );
-//   }
-
-//   render() {
-//     return (
-//       <BankApp 
-//         balance={store.getState().bank.balance}
-//         onDeposit={this.onDeposit}
-//         onWithdraw={this.onWithdraw}
-//       />
-//     );
-//   }
-// }
-
 export default BankAppContainer;
