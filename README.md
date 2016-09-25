@@ -3,10 +3,17 @@
 This is an example app using React+Redux+Webpack+Websockets. Using redux middleware
 to initiate the websocket connection. 
 
-### Try it
+### Client
 	
-	npm install 
-	npm start
+	cd src/
+    npm install
+    npm build
+
+### Server
+
+    cd app/
+    npm install 
+    npm start
 
 ## Dependencies
 
