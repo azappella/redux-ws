@@ -1,27 +1,30 @@
 ## README
 
+This is an example app using React+Redux+Webpack+Websockets. Using redux middleware
+to initiate the websocket connection. 
 
-npm install --save react react-dom redux webpack
+### Try it
+	
+	npm install 
+	npm start
 
+## Dependencies
 
-npm install --save-dev webpack babel-loader babel-core babel-preset-es2015 babel-preset-react
+	npm install --save react react-dom redux webpack
+	npm install --save-dev webpack babel-loader babel-core babel-preset-es2015 babel-preset-react
 
-
-//package.json
 
 ```
     "babel": {
         "presets": [
             "es2015", 
-            "es2016"
+            "react"
         ]
     },
 ```
 
-Required loaders
-
-babel-loader
-sass-loader
+Links
+---
 
 https://medium.com/@housecor/react-stateless-functional-components-nine-wins-you-might-have-overlooked-997b0d933dbc#.cnecgargz
 http://jamesknelson.com/should-i-use-react-createclass-es6-classes-or-stateless-functional-components/
