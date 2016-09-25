@@ -32,6 +32,10 @@ io.on('connection', function(socket){
       console.log('user deposit', payload);
       socket.emit('deposit', payload);
   });
+  socket.on('withdraw', function(payload){
+      console.log('user withdrawal', payload);
+      socket.emit('withdraw', payload);
+  });
 });
 
 

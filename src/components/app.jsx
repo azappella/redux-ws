@@ -54,12 +54,10 @@ class BankAppContainer extends React.Component {
     // then, the websocketware will dispatch the action that deposit was received
     // and the bank reducer will do its' job. 
     store.dispatch( actions.ws.emit('deposit', amount) );
-
-    // store.dispatch( actions.bank.depositIntoAccount(amount) );
   }
 
   onWithdraw(e, amount) {
-    store.dispatch( actions.bank.withdrawFromAccount(amount) );
+    store.dispatch( actions.ws.emit('withdraw', amount) );
   }
 
   render() {

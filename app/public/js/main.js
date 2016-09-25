@@ -21554,13 +21554,11 @@
 	      // then, the websocketware will dispatch the action that deposit was received
 	      // and the bank reducer will do its' job. 
 	      _store2.default.dispatch(_actions2.default.ws.emit('deposit', amount));
-
-	      // store.dispatch( actions.bank.depositIntoAccount(amount) );
 	    }
 	  }, {
 	    key: 'onWithdraw',
 	    value: function onWithdraw(e, amount) {
-	      _store2.default.dispatch(_actions2.default.bank.withdrawFromAccount(amount));
+	      _store2.default.dispatch(_actions2.default.ws.emit('withdraw', amount));
 	    }
 	  }, {
 	    key: 'render',
@@ -29896,9 +29894,11 @@
 	  var onDisconnect = function onDisconnect(socket, store) {
 	    store.dispatch(_actions2.default.ws.disconnected());
 	  };
-
 	  var onDeposit = function onDeposit(payload, socket, store) {
 	    store.dispatch(_actions2.default.bank.depositIntoAccount(payload));
+	  };
+	  var onWithdraw = function onWithdraw(payload, socket, store) {
+	    store.dispatch(_actions2.default.bank.withdrawFromAccount(payload));
 	  };
 
 	  return function (store) {
@@ -29918,9 +29918,11 @@
 	            socket.on('deposit', function (payload) {
 	              onDeposit(payload, socket, store);
 	            });
+	            socket.on('withdraw', function (payload) {
+	              onWithdraw(payload, socket, store);
+	            });
 	            break;
 	          case _constants2.default.SOCKET_IO_EMIT:
-	            // socket.emit('deposit', 'Some message');
 	            socket.emit(action.channel, action.payload);
 	          default:
 	            return next(action);

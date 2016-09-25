@@ -13,9 +13,11 @@ const socketware = (() => {
   const onDisconnect = (socket, store) => {
     store.dispatch( actions.ws.disconnected() );
   };
-
   const onDeposit = (payload, socket, store) => {
     store.dispatch( actions.bank.depositIntoAccount(payload) );
+  };
+  const onWithdraw = (payload, socket, store) => {
+    store.dispatch( actions.bank.withdrawFromAccount(payload) );
   };
 
   return store => next => action => {
@@ -33,9 +35,11 @@ const socketware = (() => {
         socket.on('deposit', (payload) => {
           onDeposit(payload, socket, store);
         });
+        socket.on('withdraw', (payload) => {
+          onWithdraw(payload, socket, store);
+        });
         break;
       case types.SOCKET_IO_EMIT:
-        // socket.emit('deposit', 'Some message');
         socket.emit(action.channel, action.payload);
       default:
         return next(action);
