@@ -5,11 +5,14 @@ import { Provider } from 'react-redux';
 import store from 'stores/store';
 import actions from 'actions/actions';
 
-store.dispatch( actions.ws.connect() );
+function init(store, render) {
+  store.dispatch( actions.ws.connect() );
+  render(
+    <Provider store={store}>
+      <BankAppContainer />
+    </Provider>,
+    document.getElementById('root')
+  ); 
+}
 
-render(
-  <Provider store={store}>
-    <BankAppContainer />
-  </Provider>,
-  document.getElementById('root')
-);
+init(store, render);
