@@ -2,10 +2,10 @@ import types from 'constants/constants';
 import actions from 'actions/actions';
 import io from 'socket.io-client';
 
+const socket = io();
+let c = 0;
 
 const socketware = (() => {
-  
-  let socket = null;
 
   const onConnect = (socket, store) => {
     store.dispatch( actions.ws.connected() );
@@ -25,7 +25,6 @@ const socketware = (() => {
     switch(action.type) {
       case types.SOCKET_IO_CONNECT:
         store.dispatch( actions.ws.connecting() );
-        socket = io();
         socket.on('connect', () => {
           onConnect(socket, store);
         });
@@ -33,9 +32,11 @@ const socketware = (() => {
           onDisconnect(socket, store)
         });
         socket.on('deposit', (payload) => {
+          console.log('User deposits:', payload);
           onDeposit(payload, socket, store);
         });
         socket.on('withdraw', (payload) => {
+          console.log('User withdraws:', payload);
           onWithdraw(payload, socket, store);
         });
         break;

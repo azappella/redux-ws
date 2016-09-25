@@ -34,3 +34,5 @@ https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functiona
 https://medium.com/@dan_abramov/how-to-use-classes-and-sleep-at-night-9af8de78ccb4#.9rftcyd0u
 
 https://medium.com/@housecor/in-defense-of-javascript-classes-e50bf2270a95#.1aiqy38y1
+
+https://exec64.co.uk/blog/websockets_with_redux/
