@@ -3,7 +3,6 @@ import actions from 'actions/actions';
 import io from 'socket.io-client';
 
 const socket = io();
-let c = 0;
 
 const socketware = (() => {
 
