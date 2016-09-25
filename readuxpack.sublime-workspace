@@ -1,0 +1,1260 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Ba",
+				"BankAppContainer"
+			],
+			[
+				"on",
+				"onDeposit"
+			],
+			[
+				"B",
+				"BankApp"
+			],
+			[
+				"handle",
+				"handleDeposit"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"reply",
+				"replyErrors"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"save",
+				"saveReminder"
+			],
+			[
+				"getin",
+				"getInitialState"
+			],
+			[
+				"onKe",
+				"onKeyUp"
+			],
+			[
+				"onKey",
+				"onKeyDown"
+			],
+			[
+				"mar",
+				"onMarkResolved"
+			],
+			[
+				"re",
+				"reminder--message"
+			],
+			[
+				"set",
+				"setState"
+			],
+			[
+				"rep",
+				"replyBoxValue"
+			],
+			[
+				"is_n",
+				"is_null"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"current",
+				"currentReminderId"
+			],
+			[
+				"google",
+				"google_place_id"
+			],
+			[
+				"peris",
+				"persistAddress"
+			],
+			[
+				"cur",
+				"currentProperty"
+			],
+			[
+				"is",
+				"isVisible"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"list-st",
+				"list-style-type"
+			],
+			[
+				"property",
+				"propertyId"
+			],
+			[
+				"curr",
+				"CURRENT_PROPERTY_ID"
+			],
+			[
+				"pers",
+				"persistAddress"
+			],
+			[
+				"mapCenter",
+				"mapCenterLng"
+			],
+			[
+				"propert",
+				"propertyLink"
+			],
+			[
+				"edi",
+				"editing_property_id"
+			],
+			[
+				"editin",
+				"editing_integration_id"
+			],
+			[
+				"local",
+				"locality"
+			],
+			[
+				"hand",
+				"handleMarkerMovements"
+			],
+			[
+				"Re",
+				"ReactCSSTransitionGroup"
+			],
+			[
+				"INTE",
+				"INTEGRATIONS_IMG_PATH"
+			],
+			[
+				"integration",
+				"integrationId"
+			],
+			[
+				"edit",
+				"editing_property_id"
+			],
+			[
+				"eid",
+				"editing_integration_id"
+			],
+			[
+				"reservation",
+				"reservation_reminder_sub"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"React",
+				"ReactUtils"
+			],
+			[
+				"open",
+				"opened_reminder_id"
+			],
+			[
+				"getIn",
+				"getInitialState"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"ajax",
+				"ajaxAction"
+			],
+			[
+				"inser",
+				"insertClientMetaRow"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"getUser",
+				"getUserFromLang"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"parse",
+				"parseAddressComponents"
+			],
+			[
+				"address",
+				"address_components"
+			],
+			[
+				"handl",
+				"handleSuggestion"
+			],
+			[
+				"Aut",
+				"AutocompleteAddress"
+			],
+			[
+				"compon",
+				"componentDidMount"
+			],
+			[
+				"geo",
+				"geolocateProperty"
+			],
+			[
+				"map",
+				"mapCenterLng"
+			],
+			[
+				"cu",
+				"CURRENT_PROPERTY_ID"
+			],
+			[
+				"Model",
+				"Model_DbTable_Channel"
+			],
+			[
+				"loca",
+				"locality"
+			],
+			[
+				"stree",
+				"streetNumber"
+			],
+			[
+				"mapCent",
+				"mapCenterLat"
+			],
+			[
+				"Map",
+				"MapContainer"
+			],
+			[
+				"ine",
+				"integration_id"
+			],
+			[
+				"editing_",
+				"editing_app_id"
+			],
+			[
+				"getD",
+				"getDataAttrFrom"
+			],
+			[
+				"inte",
+				"integrationSettings"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"app",
+				"app_category"
+			],
+			[
+				"listen",
+				"listener"
+			],
+			[
+				"get",
+				"getErrorMessage"
+			],
+			[
+				"box-",
+				"box-sizing"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"ref",
+				"referral"
+			],
+			[
+				"res",
+				"results-more"
+			],
+			[
+				"quick",
+				"quick-invoice-tmpl"
+			],
+			[
+				"quic",
+				"quick-invoice-tmpl"
+			],
+			[
+				"onmouseo",
+				"onmouseout	Attr"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"inlien",
+				"inline-block"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"last",
+				"last-child"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/reducers/bank.js",
+			"settings":
+			{
+				"buffer_size": 476,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/stores/store.js",
+			"settings":
+			{
+				"buffer_size": 120,
+				"line_ending": "Unix",
+				"name": "import { createStore } from 'redux';"
+			}
+		},
+		{
+			"file": "src/components/app.jsx",
+			"settings":
+			{
+				"buffer_size": 1648,
+				"line_ending": "Unix",
+				"name": "import React from 'react';"
+			}
+		},
+		{
+			"file": "src/index.js",
+			"settings":
+			{
+				"buffer_size": 201,
+				"line_ending": "Unix",
+				"name": "console.log('Hello Webpack!');"
+			}
+		},
+		{
+			"file": "/srv/www/beta/app/frontend/pages/pages.js",
+			"settings":
+			{
+				"buffer_size": 33182,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/constants.js",
+			"settings":
+			{
+				"buffer_size": 152,
+				"line_ending": "Unix",
+				"name": "export default {"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 736,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "webpack.config.js",
+			"settings":
+			{
+				"buffer_size": 554,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 944,
+				"line_ending": "Unix",
+				"name": "README"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 191,
+				"line_ending": "Unix",
+				"name": "<!DOCTYPE html>"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pac",
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			],
+			[
+				"Git",
+				"GitGutter: Compare Against Branch"
+			],
+			[
+				"Sub",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"Code f",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 294.0,
+		"history":
+		[
+			"exit",
+			"clear()",
+			"reset",
+			"clear",
+			"view.encoding()"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/a12a/projects/readuxpack",
+		"/home/a12a/projects/readuxpack/dist",
+		"/home/a12a/projects/readuxpack/src"
+	],
+	"file_history":
+	[
+		"/home/a12a/projects/readuxpack/src/greet.js",
+		"/home/a12a/projects/readuxpack/src/store",
+		"/home/a12a/projects/readuxpack/dist/main.js",
+		"/srv/www/app/application/helpers/action/Resa.php",
+		"/srv/www/app/application/helpers/action/Store.php",
+		"/srv/www/app/application/helpers/action/Reminder.php",
+		"/srv/www/app/application/modules/store/controllers/ListController.php",
+		"/srv/www/app/application/modules/default/controllers/ReservationController.php",
+		"/srv/www/beta/app/frontend/navigation/menu.js",
+		"/srv/www/beta/app/frontend/store/actions/collection.js",
+		"/srv/www/app/application/modules/default/views/scripts/reservation/v2/block-reminder.phtml",
+		"/srv/www/beta/app/frontend/store/reducers/list.js",
+		"/srv/www/beta/app/frontend/store/actions/list.js",
+		"/srv/www/beta/app/frontend/helpers/list.js",
+		"/srv/www/beta/app/frontend/helpers/session.js",
+		"/srv/www/beta/app/frontend/store/reducers/session.js",
+		"/srv/www/beta/app/frontend/pages/pages.js",
+		"/srv/www/beta/less/modules/reminders.less",
+		"/srv/www/beta/app/frontend/pages/reminders.js",
+		"/home/a12a/projects/readuxpack/webpack.config.js",
+		"/srv/www/app/public/js/global.js",
+		"/srv/www/app/application/models/DbTable/ReservationReminder.php",
+		"/srv/www/app/application/helpers/action/UserSettings.php",
+		"/srv/www/app/application/modules/user/controllers/SettingsController.php",
+		"/srv/www/beta/less/skeleton/modal.less",
+		"/srv/www/beta/app/frontend/pages/settings/channels.js",
+		"/srv/www/beta/app/frontend/components/modals/modal.js",
+		"/srv/www/beta/app/frontend/pages/integrations/trivago-fastconnect.js",
+		"/srv/www/beta/app/frontend/pages/settings/integrations.js",
+		"/srv/www/app/application/helpers/action/Client.php",
+		"/srv/www/app/application/modules/store/controllers/CollectionController.php",
+		"/srv/www/beta/app/frontend/lib/list-utils.js",
+		"/srv/www/beta/app/frontend/lib/keycodes.js",
+		"/srv/www/app/application/modules/api/controllers/V2Controller.php",
+		"/srv/www/beta/app/frontend/pages/statistics/channel-performance.js",
+		"/srv/www/beta/less/includes/modal.less",
+		"/srv/www/beta/app/frontend/store/reducers/collection.js",
+		"/srv/www/beta/app/frontend/store/actions/navigation.js",
+		"/srv/www/beta/webpack/app.js",
+		"/srv/www/beta/app/frontend/pages/settings/address.js",
+		"/srv/www/app/application/helpers/action/Data.php",
+		"/home/a12a/projects/base7/signature/v2/sig.html",
+		"/srv/www/app/application/modules/default/views/scripts/client/v2/new-email.phtml",
+		"/srv/www/app/application/modules/default/views/scripts/reservation/v2/block-rooms.phtml",
+		"/srv/www/beta/package.json",
+		"/home/a12a/Desktop/customers-joined.csv",
+		"/home/a12a/Downloads/signup_requests.csv",
+		"/home/a12a/Downloads/signup_requests(1).csv",
+		"/srv/www/v2/application/modules/store/controllers/ListController.php",
+		"/srv/www/beta/app/frontend/store/actions/session.js",
+		"/srv/www/beta/app/frontend/store/actions/actions.js",
+		"/srv/www/beta/app/frontend/lib/normalize.js",
+		"/srv/www/beta/app/server/views/app.htm",
+		"/run/user/1000/gvfs/ftp:host=ftp.base7booking.com/httpsdocs/wp-content/themes/base7/single.php",
+		"/run/user/1000/gvfs/ftp:host=ftp.base7booking.com/httpsdocs/wp-content/themes/base7/header.php",
+		"/run/user/1000/gvfs/ftp:host=ftp.base7booking.com/httpsdocs/wp-content/themes/base7/style.css",
+		"/home/a12a/customers-latest.csv",
+		"/srv/www/app/application/modules/default/controllers/InvoiceController.php",
+		"/srv/www/app/application/modules/default/views/scripts/invoice/v2/add-from-resa.phtml",
+		"/srv/www/app/application/layouts/invoice.phtml",
+		"/srv/www/v2/application/modules/setup/views/scripts/index/block-content.phtml",
+		"/srv/www/v2/public/setup/js/app.js",
+		"/srv/www/v2/application/models/DbTable/IntegrationSetting.php",
+		"/srv/www/v2/application/helpers/action/Store.php",
+		"/srv/www/v2/application/modules/setup/controllers/IndexController.php",
+		"/srv/www/v2/application/modules/setup/views/scripts/index/welcome.phtml",
+		"/srv/www/beta/less/v1/v1.less",
+		"/srv/www/app/application/modules/setup/controllers/IndexController.php",
+		"/srv/www/beta/app/frontend/lib/bridge.js",
+		"/srv/www/v2/application/modules/default/views/scripts/reservation/block-reminder.phtml",
+		"/srv/www/v2/application/modules/default/views/scripts/reservation/v2/block-reminder.phtml",
+		"/srv/www/v2/application/modules/signup/views/scripts/index/v2/index.phtml",
+		"/srv/www/v2/application/modules/setup/views/scripts/index/v2/welcome.phtml",
+		"/srv/www/beta/config/backend.json",
+		"/srv/www/v2/application/helpers/action/Reminder.php",
+		"/srv/www/beta/app/frontend/components/tables/flex.js",
+		"/srv/www/v2/application/modules/signup/controllers/IndexController.php",
+		"/srv/www/beta/less/app.less",
+		"/srv/www/beta/app/frontend/pages/reservations/history.js",
+		"/srv/www/beta/app/frontend/helpers/page.js",
+		"/srv/www/beta/app/frontend/modules/settings/address.jsx",
+		"/srv/www/beta/app/frontend/store/store.js",
+		"/home/a12a/projects/vagrant_env/Vagrantfile",
+		"/srv/www/beta/app/frontend/modules/settings/integrations.jsx",
+		"/srv/www/beta/less/modules/settings/address.less",
+		"/srv/www/beta/node_modules/react-geosuggest/dist/react-geosuggest.js",
+		"/srv/www/beta-copy/no",
+		"/run/user/1000/gvfs/ftp:host=ftp.base7booking.com/subdomains/blog/httpsdocs/wp-content/themes/base7-fifteen/functions.php",
+		"/run/user/1000/gvfs/ftp:host=ftp.base7booking.com/subdomains/blog/httpsdocs/wp-content/themes/base7-fifteen/category.php",
+		"/run/user/1000/gvfs/ftp:host=ftp.base7booking.com/subdomains/blog/httpsdocs/wp-content/themes/base7-fifteen/single.php",
+		"/run/user/1000/gvfs/ftp:host=ftp.base7booking.com/subdomains/blog/httpsdocs/wp-content/themes/base7/single.php",
+		"/run/user/1000/gvfs/ftp:host=ftp.base7booking.com/subdomains/blog/httpsdocs/wp-content/themes/base7/content.php",
+		"/run/user/1000/gvfs/ftp:host=ftp.base7booking.com/subdomains/blog/httpsdocs/wp-content/themes/base7/functions.php",
+		"/run/user/1000/gvfs/ftp:host=ftp.base7booking.com/subdomains/blog/httpsdocs/wp-content/themes/base7/category.php",
+		"/run/user/1000/gvfs/ftp:host=ftp.base7booking.com/subdomains/blog/httpsdocs/wp-content/themes/base7-fifteen/content-category.php",
+		"/run/user/1000/gvfs/ftp:host=ftp.base7booking.com/subdomains/blog/httpsdocs/wp-content/themes/base7/page.php",
+		"/run/user/1000/gvfs/ftp:host=ftp.base7booking.com/httpsdocs/wp-content/themes/base7/content.php",
+		"/run/user/1000/gvfs/ftp:host=ftp.base7booking.com/httpsdocs/wp-content/themes/base7/content-page.php",
+		"/srv/www/beta/app/frontend/modules/settings/integrations-old.jsx",
+		"/home/a12a/projects/base7booking/main.js",
+		"/home/a12a/projects/electron-quick-start/package.json",
+		"/home/a12a/projects/electron-quick-start/main.js",
+		"/home/a12a/projects/electron-quick-start/index.html",
+		"/tmp/mozilla_a12a0/Photoshop_13_LS16.7z",
+		"/home/a12a/Downloads/Photoshop_CS2.exe",
+		"/home/a12a/projects/dockerized-dev",
+		"/home/a12a/KeyboardMacros.xml",
+		"/srv/www/beta/app/frontend/modules/integrations/trivago-fastconnect.jsx",
+		"/srv/www/beta/app/frontend/modules/integrations/google-analytics.jsx",
+		"/srv/www/v2/application/modules/admin/controllers/PropertiesController.php",
+		"/srv/www/beta/app/frontend/windows/v2/v2.js",
+		"/srv/www/v2/application/modules/admin/controllers/SubscriptionController.php",
+		"/srv/www/v2/migrations/20160527-client-address.sql",
+		"/srv/www/v2/application/modules/api/controllers/IntegrationController.php",
+		"/srv/www/beta/.eslintrc",
+		"/srv/www/v2/application/helpers/action/Property.php",
+		"/srv/www/beta/less/modules/settings/integrations.less",
+		"/home/a12a/projects/my-app/src/index.css",
+		"/home/a12a/projects/my-app/src/App.js",
+		"/srv/www/beta/app/frontend/modules/auth/login.jsx",
+		"/srv/www/beta/app/frontend/v1.js",
+		"/srv/www/beta/app/frontend/windows/v1/v1.js",
+		"/srv/www/beta/.git/info/exclude",
+		"/srv/www/beta/app/frontend/windows/manager.js",
+		"/home/a12a/projects/my-app/index.html",
+		"/home/a12a/projects/my-app/package.json",
+		"/srv/www/v2/application/modules/admin/views/scripts/subscription/index.phtml",
+		"/srv/www/v2/application/configs/application.ini"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"action",
+			"type",
+			",",
+			"var",
+			"textarea",
+			"expired\" ",
+			"\"",
+			"expired\" ",
+			"\"",
+			"r.date = ? OR ",
+			"onMarkResolve",
+			"'page.reminders.reminder_not_saved'",
+			"reminder_not_saved",
+			"page.reminders.reminder_not_saved",
+			"age.reminders.reminder_not_saved",
+			"onEdit",
+			"edit",
+			"isEditing",
+			"editingReminderId",
+			"closeModal",
+			"session",
+			"onSub",
+			"saveReminder",
+			"onReply",
+			"filter",
+			"proper",
+			"filters",
+			");\n",
+			"session",
+			"filter",
+			"propert",
+			"property",
+			"red",
+			"textarea",
+			"reply",
+			"event",
+			"ajaxAction",
+			"reminder",
+			"reload",
+			"date",
+			"Add",
+			"reminder",
+			"left",
+			"reply-container",
+			"-15",
+			"active",
+			"[A-Z]",
+			" ",
+			"By",
+			"page.reminder",
+			"open",
+			"reminder--thread",
+			"margin",
+			"reminder",
+			" ",
+			"session",
+			"success(",
+			"reminders",
+			"Reminders",
+			"promise",
+			"validate",
+			"valid",
+			"enter",
+			"ctrl",
+			"onKey",
+			"onKeyDown",
+			"reminder--edit",
+			"close",
+			"modal",
+			"onEdit",
+			"isEditing",
+			"Format",
+			"format",
+			"setFilter",
+			"DatePicker",
+			"class",
+			"date",
+			"saveReminder",
+			"persis",
+			"lists",
+			"modal",
+			"currentReminderId",
+			"editing_reminder_id",
+			"reminders",
+			"Types",
+			"session",
+			"currentReminderId",
+			"use_sess",
+			"reminder",
+			"use_se",
+			"use_session",
+			"session",
+			"Reminders",
+			",\n",
+			"__(",
+			"filterCollections",
+			"utils",
+			"ReactUt",
+			"eventDelegate",
+			"no-close",
+			"buttons",
+			"escape",
+			"inputHandlers",
+			"hover",
+			"debugger",
+			"thread",
+			"onRepy",
+			"thre",
+			"curso",
+			"thread",
+			"openT",
+			"eventDelegate",
+			"reply-box",
+			"onReply",
+			"debugger",
+			"submit",
+			"textare",
+			"onMarkResolved",
+			"openTh",
+			"onOpen",
+			"notif",
+			"onReply",
+			"reply",
+			"B7.Actions.list.save",
+			"B7.Action.list.save",
+			"save",
+			"debugger",
+			"console.log"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"openedReminderId",
+			"function fetch\\u$1$2",
+			"function fetch\\U$1$2",
+			"function fetch\\L$1$2",
+			"function $1",
+			"$1 $2",
+			"$1$2 ",
+			" $1$2 ",
+			" $1 $2 ",
+			"$1$2",
+			" $1 $2",
+			"$1 ",
+			"",
+			"\\r",
+			"",
+			",",
+			"",
+			"'",
+			"property",
+			"TEXT",
+			"const",
+			"lp.dev:8080",
+			"lp.dev",
+			"label",
+			"",
+			"color-branding-secondary",
+			"color-branding",
+			"b7_system",
+			"root",
+			"header",
+			"content"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/reducers/bank.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 476,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/stores/store.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								93,
+								93
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import { createStore } from 'redux';",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/components/app.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1648,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1013,
+								1013
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import React from 'react';",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								199,
+								199
+							]
+						],
+						"settings":
+						{
+							"auto_name": "console.log('Hello Webpack!');",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/srv/www/beta/app/frontend/pages/pages.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 33182,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31826,
+								31826
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 15948.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/constants.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								76,
+								76
+							]
+						],
+						"settings":
+						{
+							"auto_name": "export default {",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 736,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								308,
+								308
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "webpack.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 554,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								312,
+								312
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 944,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								451,
+								451
+							]
+						],
+						"settings":
+						{
+							"auto_name": "README",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 191,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								175,
+								175
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<!DOCTYPE html>",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "readuxpack.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"accoljs",
+				"app/frontend/store/actions/collection.js"
+			],
+			[
+				"store",
+				"application/helpers/action/Store.php"
+			],
+			[
+				"actions.",
+				"beta/app/frontend/store/actions/actions.js"
+			],
+			[
+				"b7controller",
+				"v1/application/library/B7/Controller/Json.php"
+			],
+			[
+				"model_dbtable_apps",
+				"portal/node_modules/babel-preset-es2015/node_modules/babel-plugin-transform-es2015-block-scoping/node_modules/lodash/chain/wrapperToString.js"
+			],
+			[
+				"collectionwrapper",
+				"portal/node_modules/babel-preset-stage-0/node_modules/babel-preset-stage-1/node_modules/babel-plugin-transform-decorators/node_modules/babel-helper-explode-class/node_modules/babel-traverse/node_modules/lodash/internal/LodashWrapper.js"
+			],
+			[
+				"",
+				"~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
+			],
+			[
+				"load",
+				"portal/app/frontend/components/loading.jsx"
+			],
+			[
+				"windowstype",
+				"~/projects/base7/vagrant-b7-apps/services/portal/app/frontend/windows/types.js"
+			],
+			[
+				"reload",
+				"v1/application/modules/default/views/scripts/calendrier/reload.phtml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 316.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
