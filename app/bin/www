@@ -7,6 +7,7 @@
 var app = require('../app');
 var debug = require('debug')('app:server');
 var http = require('http');
+var ws = require('../ws/index');
 
 /**
  * Get port from environment and store in Express.
@@ -21,22 +22,11 @@ app.set('port', port);
 
 var server = http.createServer(app);
 
+/**
+ * Create websocket server
+ */
 var io = require('socket.io')(server);
-io.on('connection', function(socket){
-  io.emit('this', { will: 'be received by everyone'});
-  console.log('A user connected');
-  socket.on('disconnect', function(){
-      console.log('user disconnected');
-  });
-  socket.on('deposit', function(payload){
-      console.log('user deposit', payload);
-      io.emit('deposit', payload);
-  });
-  socket.on('withdraw', function(payload){
-      console.log('user withdrawal', payload);
-      io.emit('withdraw', payload);
-  });
-});
+ws.init(io);
 
 
 /**

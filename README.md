@@ -23,6 +23,10 @@ to initiate the websocket connection.
     },
 ```
 
+## To see
+
+https://github.com/maxnachlinger/redux-websocket-example
+
 Links
 ---
 

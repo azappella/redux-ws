@@ -21562,42 +21562,6 @@
 
 	var BankAppContainer = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(BankApp);
 
-	// class BankAppContainer extends React.Component {
-
-	//   componentDidMount() {
-	//     this.unsubscribe = store.subscribe(() => {
-	//       this.setState({ balance: store.getState().bank.balance, wsStatus: store.getState().ws.status });
-	//     });
-	//     store.dispatch( actions.ws.connect() );
-	//     // store.dispatch( actions.ws.emit('deposit', 150.00) );
-	//   }
-
-	//   componentWillUnmount() {
-	//     this.unsubscribe();
-	//   }
-
-	//   onDeposit(e, amount) {
-	//     // it needs to go through the websocketware first, we can call an emit firt
-	//     // then, the websocketware will dispatch the action that deposit was received
-	//     // and the bank reducer will do its' job. 
-	//     store.dispatch( actions.ws.emit('deposit', amount) );
-	//   }
-
-	//   onWithdraw(e, amount) {
-	//     store.dispatch( actions.ws.emit('withdraw', amount) );
-	//   }
-
-	//   render() {
-	//     return (
-	//       <BankApp 
-	//         balance={store.getState().bank.balance}
-	//         onDeposit={this.onDeposit}
-	//         onWithdraw={this.onWithdraw}
-	//       />
-	//     );
-	//   }
-	// }
-
 	exports.default = BankAppContainer;
 
 /***/ },
@@ -21630,9 +21594,16 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var reduxLogger = (0, _reduxLogger2.default)();
+	var initialState = {
+	  bank: {
+	    balance: 0
+	  },
+	  ws: {
+	    status: null
+	  }
+	};
 
-	exports.default = (0, _redux.createStore)(_index2.default, (0, _redux.applyMiddleware)(_reduxThunk2.default, reduxLogger, _socketIo2.default));
+	exports.default = (0, _redux.createStore)(_index2.default, initialState, (0, _redux.applyMiddleware)(_reduxThunk2.default, (0, _reduxLogger2.default)(), _socketIo2.default));
 
 /***/ },
 /* 174 */
@@ -22519,7 +22490,10 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	exports.default = (0, _redux.combineReducers)({ bank: _bank2.default, ws: _websocket2.default });
+	exports.default = (0, _redux.combineReducers)({
+	  bank: _bank2.default,
+	  ws: _websocket2.default
+	});
 
 /***/ },
 /* 189 */
@@ -22681,11 +22655,9 @@
 	              onDisconnect(socket, store);
 	            });
 	            socket.on('deposit', function (payload) {
-	              console.log('User deposits:', payload);
 	              onDeposit(payload, socket, store);
 	            });
 	            socket.on('withdraw', function (payload) {
-	              console.log('User withdraws:', payload);
 	              onWithdraw(payload, socket, store);
 	            });
 	            break;
